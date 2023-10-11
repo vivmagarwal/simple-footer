@@ -29,6 +29,9 @@ footer {
 
 .latest-posts {
   flex-basis: 33.32%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
 }
 
 .footer-logo {
@@ -43,4 +46,22 @@ footer {
 .aboutus {
   width: 270px;
   margin-bottom: 32px;
+}
+
+.latest-post {
+  display: flex;
+  gap: 30px;
+}
+
+.latest-post__image {
+  height: 48px;
+  flex-grow: 0;
+  width: 71px;
+  border-radius: 8px;
+}
+
+.latest-post__content {
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
 }
